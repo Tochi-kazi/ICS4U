@@ -9,7 +9,7 @@ public class Stringblowup {
  public static void main(String args[]){ 
   
   //Asking user for an input
-  System.out.println("Enter a string: ");
+  System.out.println("Enter a string to blow up: ");
   Scanner userinput = new Scanner(System.in);
   StringBuffer buffer = new StringBuffer(18);
   
