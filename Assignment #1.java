@@ -41,7 +41,7 @@ public class Stringblowup {
     }
   
      }
-  System.out.println("The new string is: " + buffer);
+  System.out.println("Your blown up string is : " + buffer);
  }
 }
  
