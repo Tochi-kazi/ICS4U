@@ -11,7 +11,7 @@ public class BoardFoot {
   System.out.println("What should be the lenght of the board");
   Scanner length = new Scanner (System.in);
   Double boardlenght =  length.nextDouble();
-  System.out.println("What should be the lenght of the board");
+  System.out.println("What should be the width of the board");
   Scanner width = new Scanner (System.in);
   Double boardwidth =  width.nextDouble();
   Double Area = 144.0;// the area of the board foot
