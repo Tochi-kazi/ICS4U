@@ -16,7 +16,7 @@ public class DiceGame {
   System.out.println("What number did the computer guess ?");
   Scanner userguess = new Scanner(System.in);
   int usersguess = userguess.nextInt();
-  int numberofguess = 0;
+  int numberofguess = 1;
   //double random = Math.random(number)+1;
   //Scanner input = new Scanner(System.in);
   while (usersguess != number) {
