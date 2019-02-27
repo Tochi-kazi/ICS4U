@@ -17,31 +17,31 @@ public class RockPaperScissors {
 		   case 1:
 			   //rock
 			   if (userchoice == 1) { // Rock vs Rock
-				   System.out.println("Draw, the computer chose " + computerchoice);
+				   System.out.println("Draw, the computer chose(Rock) " + computerchoice);
 			   }else if (userchoice == 2) { // Rock vs Papper 
-				   System.out.println("Win, the computer chose " + computerchoice);
+				   System.out.println("Win, the computer chose(Rock) " + computerchoice);
 			   }else if (userchoice == 3) { // Rock vs Scissors
-				   System.out.println("Lose, the computer chose " + computerchoice);
+				   System.out.println("Lose, the computer chose(Rock) " + computerchoice);
 			   }
 			   break;
 		   case 2:
 			   //paper
 			   if (userchoice == 1) { // paper vs Rock
-				   System.out.println("Lose the computer chose " + computerchoice);
+				   System.out.println("Lose the computer chose(Paper) " + computerchoice);
 			   }else if (userchoice == 2) { // paper vs paper
-				   System.out.println("Draw, the computer chose " + computerchoice);
+				   System.out.println("Draw, the computer chose(Paper) " + computerchoice);
 			   }else if ( userchoice == 3) { // paper vs Scissors
-				   System.out.println("Win, the computer chose " + computerchoice);
+				   System.out.println("Win, the computer chose(Paper) " + computerchoice);
 			   }
 			   break;
 		   case 3:
 			   // Scissors
 			   if (userchoice == 1) { // Scissors vs Rock
-				   System.out.println("Win,the computer chose " + computerchoice);
+				   System.out.println("Win,the computer chose(Scissors) " + computerchoice);
 			   }else if (userchoice == 2) { // Scissors vs paper
-				   System.out.println("Lose, the computer chose " + computerchoice);
+				   System.out.println("Lose, the computer chose(Scissors) " + computerchoice);
 			   }else if ( userchoice == 3) { // Scissors vs Scissors
-				   System.out.println("Draw, the computer chose " + computerchoice);
+				   System.out.println("Draw, the computer chose(Scissors) " + computerchoice);
 			   }
 			   break;
 		}
